@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #18181b;
+  --color-brand: #2563eb;
+  --color-brand-light: #60a5fa;
+  --color-brand-dark: #1d4ed8;
+  --color-accent: #0d9488;
+  --color-accent-light: #5eead4;
+  --color-good: #059669;
+  --color-good-light: #a7f3d0;
+  --color-bad: #e11d48;
+  --color-bad-light: #fecdd3;
+  --color-surface: #fafafa;
+  --color-card: #ffffff;
+  --color-muted: #71717a;
+  --color-border: #e4e4e7;
+  --font-sans: var(--font-geist-sans), "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), "Noto Sans Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-foreground);
+}
+
+.training-gradient {
+  background: linear-gradient(135deg, #2563eb 0%, #0d9488 50%, #2563eb 100%);
+}
+
+.card-highlight {
+  border-left: 4px solid var(--color-brand);
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
