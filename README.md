@@ -76,7 +76,4 @@ my-app/
 | 第3章：拓展 AI 能力 | 插件、MCP、Skills 介绍 |
 | 第4章：高效协作与调试 | 调试公式、循环修复模式 |
 | 速查表 | 核心知识点一页纸总结 |
-
-## 内容来源
-
-本培训内容基于 [DataWhaleChina Vibe Vibe](https://github.com/datawhalechina/vibe-vibe) 教程的"02-ai-tuning-guide"章节整理，面向企业员工重新组织和设计。
+  
